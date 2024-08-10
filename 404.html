@@ -10,8 +10,11 @@
   <script type="text/javascript">
     
     if (window.location.pathname !== '/') {
-      
-      window.location.replace('/index.html#' + window.location.pathname);
+
+        let location = window.location.pathname;
+        location.replace("/Loja-T-Alpha", "")
+        
+      window.location.replace('/Loja-T-Alpha/index.html#' + window.location.pathname);
     }
   </script>
 </body>
