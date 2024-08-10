@@ -1,0 +1,39 @@
+.dialog{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-form-atualiza{
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 50%;
+
+}
+
+.button-cancelar{
+    background-color: rgb(185, 19, 19);
+    color: white;
+    margin-right: 20px;
+}
+
+.button-cancelar:hover{
+    background-color: rgb(126, 5, 5);
+    color: white;
+}

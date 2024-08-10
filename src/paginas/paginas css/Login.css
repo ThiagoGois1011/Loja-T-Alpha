@@ -1,0 +1,60 @@
+.form-login{
+    margin: 50px 0;
+}
+
+.form-login-message{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    max-width: 50vw;
+    opacity: 0;
+    padding: 15px;
+    position: absolute;
+    transition: opacity linear 500ms;
+    z-index: 1;
+}
+
+.form-login-message-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.form-login-message-icon{
+    color: #CCCCCC;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.form-login-message--ativando{
+    display: flex;
+}
+
+.form-login-message--ativo{
+    opacity: 1;
+}
+
+.form-login-message--desativando{
+    opacity: 0;
+}
+
+.form-login-link{
+    color: #2f2ce2;
+    display: block;
+    font-size: 1rem;
+    height: 2rem;
+    margin: 20px 0 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form-login-link:active{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 700px) {
+    .form-login-link:hover{
+        text-decoration: underline;
+    }
+}

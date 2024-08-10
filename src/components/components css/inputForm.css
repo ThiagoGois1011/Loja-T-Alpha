@@ -1,0 +1,144 @@
+.input-main{
+    border: 1px solid #E9ECEF;
+    border-radius: 10px;
+    color: #20130B;
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input-main--input-invalido{
+    border: 1px solid #df2525;
+}
+
+.input-main--input-invalido .input-main-icon-content{
+    fill: var(--color-error);
+}
+
+.input-main-icon-container{
+    height: 100%;
+    padding: 1.3rem;
+}
+
+.input-main-icon-content{
+    fill: #CCCCCC;
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.input-main-icon-content--animation{
+    animation: balanco-animation linear 500ms forwards;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+}
+
+.input-container-input{
+    border: 0;
+    font-size: 1rem;
+    height: 2rem; 
+    margin-bottom: 5px;
+    width: 99%;
+    box-sizing: border-box;
+}
+
+.input-container-input:focus{
+    outline: 2px solid #2f2ce2;
+}
+
+.input-container-input::placeholder{
+    color: #8B8B8B;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.input-container-label{
+    color: #20130B;
+    font-size: 1rem;
+    margin: 1rem 0 3px;
+    width: 100%;
+}
+
+
+.input-container-message{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    max-width: 50vw;
+    opacity: 0;
+    padding: 15px;
+    position: absolute;
+    top: -36%;
+    transition: opacity linear 500ms;
+    z-index: 1;
+}
+
+.input-container-message::after {
+    border-color: #f0f0f0 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    bottom: -20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.input-container-message--ativando{
+    display: flex;
+}
+
+.input-container-message--ativo{
+    opacity: 1;
+}
+
+.input-container-message--desativando{
+    opacity: 0;
+}
+
+.input-container-message--modificado::after {
+    border-color: #f0f0f0 transparent transparent transparent;
+    border-style: solid;
+    border-width: 0;
+    position: fixed;
+}
+
+.input-container-message-icon{
+    color: #df2525;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.input-container-li--invalido{
+    color: #df2525;
+}
+
+.input-container-li--valido{
+    color: green;
+}
+
+
+@keyframes balanco-animation {
+    0%{
+        transform: translateX(-30%);
+    }
+    25%{
+        transform: translateX(30%);
+    }
+    50%{
+        transform: translateX(-20%);
+    }
+    75%{
+        transform: translateX(20%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,40 @@
+.form-register{
+    margin: 50px 0;
+}
+
+.form-register-message{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    max-width: 50vw;
+    opacity: 0;
+    padding: 15px;
+    position: absolute;
+    transition: opacity linear 500ms;
+    z-index: 1;
+}
+
+.form-register-message-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.form-register-message-icon{
+    color: #CCCCCC;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.input-container-message--ativando{
+    display: flex;
+}
+
+.input-container-message--ativo{
+    opacity: 1;
+}
+
+.input-container-message--desativando{
+    opacity: 0;
+}
