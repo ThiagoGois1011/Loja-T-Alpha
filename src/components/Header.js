@@ -54,8 +54,8 @@ function Header() {
                             </Link>
                                 
                             <ul className="nav">
-                                <li><Link to={"/"} className="active">Home</Link></li>
-                                <li><Link to={"/login"} className="button-login">Login</Link></li>
+                                <li><Link to={"/Loja-T-Alpha/"} className="active">Home</Link></li>
+                                <li><Link to={"/Loja-T-Alpha/login"} className="button-login">Login</Link></li>
                             </ul>   
                             {menuAtivado? <a className='menu-trigger active'><span>Menu</span></a>: <a className='menu-trigger'><span>Menu</span></a>}
                                 

@@ -57,7 +57,7 @@ function Register() {
             }).then(data => data.json())
                 .then(data => {
                     if (data.success) {
-                        navigate("/painel");
+                        navigate("/Loja-T-Alpha/painel");
                     } else {
                         
                         if(Array.isArray(data.message)){

@@ -83,7 +83,7 @@ export function buscarProdutos(token, setProdutos) {
                 setProdutos(dados.data.products);
             } else {
                 if(dados.message && dados.message.includes("Unauthorized")){
-                    //window.location.href = 'http://localhost:3000/login';
+                    window.location.href = 'https://thiagogois1011.github.io/Loja-T-Alpha/';
                 }
             }
         });

@@ -37,7 +37,7 @@ function FormularioContainer({titulo, subtitulo, subtitulo2, subtitulo3, textoDo
                 </div>
             </div>
 
-            <p className="form-container-paragrafo form-container-paragrafo--centralizado">{subtitulo3}<Link className="form-container-link--hightlight" to={home?"/register":"/login"}>{textoDoLink}</Link></p>
+            <p className="form-container-paragrafo form-container-paragrafo--centralizado">{subtitulo3}<Link className="form-container-link--hightlight" to={home?"/Loja-T-Alpha/register":"/Loja-T-Alpha/login"}>{textoDoLink}</Link></p>
         </div>
         </main>
     );

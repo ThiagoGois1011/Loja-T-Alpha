@@ -45,7 +45,7 @@ function Login(){
               .then(data =>{
                 if(data.success){
                     setToken(data.data.token);
-                    navigate("/painel");
+                    navigate("/Loja-T-Alpha/painel");
                 }else{
                     ativaBalao("Email ou senha errada", ".form-login-message");
                 }
