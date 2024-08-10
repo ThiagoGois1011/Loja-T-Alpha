@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ThiagoGois1011/Loja-T-Alpha/static/css/main.01e293ae.css",
+    "main.js": "/ThiagoGois1011/Loja-T-Alpha/static/js/main.6f852481.js",
+    "static/media/background_principal.jpg": "/ThiagoGois1011/Loja-T-Alpha/static/media/background_principal.afca5b4bce67ac7a29f4.jpg",
+    "static/media/banner-bg.jpg": "/ThiagoGois1011/Loja-T-Alpha/static/media/banner-bg.4cc3c4774fa4d53d25a6.jpg",
+    "static/media/banner-01.png": "/ThiagoGois1011/Loja-T-Alpha/static/media/banner-01.5def2a982981f53671b6.png",
+    "static/media/category-collection-dec.png": "/ThiagoGois1011/Loja-T-Alpha/static/media/category-collection-dec.c8028c2740eaf2972b60.png",
+    "static/media/dark-bg.jpg": "/ThiagoGois1011/Loja-T-Alpha/static/media/dark-bg.610bdcdb7ffb44776eb2.jpg",
+    "static/media/background_form.png": "/ThiagoGois1011/Loja-T-Alpha/static/media/background_form.bbdf7535db17daf9be57.png",
+    "index.html": "/ThiagoGois1011/Loja-T-Alpha/index.html",
+    "main.01e293ae.css.map": "/ThiagoGois1011/Loja-T-Alpha/static/css/main.01e293ae.css.map",
+    "main.6f852481.js.map": "/ThiagoGois1011/Loja-T-Alpha/static/js/main.6f852481.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01e293ae.css",
+    "static/js/main.6f852481.js"
+  ]
+}
