@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecionamento</title>
+</head>
+<body>
+  <script type="text/javascript">
+    
+    if (window.location.pathname !== '/') {
+      
+      window.location.replace('/index.html#' + window.location.pathname);
+    }
+  </script>
+</body>
+</html>
